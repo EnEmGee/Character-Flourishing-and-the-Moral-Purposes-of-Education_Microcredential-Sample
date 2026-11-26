@@ -178,3 +178,14 @@ pre {
 #wiki_page_show .user_content h3 img {
   vertical-align: middle;
 }
+
+/* Lists line up with the text column: the theme's default indent pushes
+   bullets and numbers about 120px in from the paragraph above */
+#wiki_page_show .user_content ul,
+#wiki_page_show .user_content ol {
+  padding-left: 1.5rem;
+}
+#wiki_page_show .user_content ul > li,
+#wiki_page_show .user_content ol > li {
+  margin-left: 0;
+}
